@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyFirstDbPryApplication {
 	@RequestMapping("/")
 	String home() {
-		return "Hello Word! Spring Boot 4.0.2 is here. Samuel Salazar";
+		return "Hello Word! Spring Boot 4.0.2 is here. Samuel Salazar. From Visual Studio";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(MyFirstDbPryApplication.class, args);
