@@ -66,12 +66,20 @@ public class Product {
     public void setPrice(float price) {
         this.price = price;
     }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
     
-    public Instant getCreatedAT() {
+    public Instant getCreatedAt() {
         return createdAT;
     }
 
-    public void setCreatedAT(Instant createdAT) {
+    public void setCreatedAt(Instant createdAT) {
         this.createdAT = createdAT;
     }
 

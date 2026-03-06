@@ -1,10 +1,10 @@
 package com.example.products.dto;
+
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
-public class CreateProductRequest {
-
+public class UpdateProductRequest {
     @NotBlank(message = "Name is required")
     @Size(max = 120, message = "name must be <= 120 chars")
     private String name;
@@ -42,6 +42,7 @@ public class CreateProductRequest {
     public void setPrice(float price) {
         this.price = price;
     }
+    
     public int getStock() {
         return stock;
     }
